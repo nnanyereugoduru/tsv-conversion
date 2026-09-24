@@ -1,8 +1,9 @@
-# ver_1
+
 
 # Graphic tool for balance test
 This tool was created not only to graph results gained from motion capture systems but also to convert them to excell files and store them in a centralized database following the file name ending in 000X - XXXX, X being a number, 
-
+ 
+# v_1.copy
 # Limitations
 1. Not made for null data or absent data within the data set
 2. the column names used to call for the graphing and in general are hardcoded, change in this will negatively affect the code - solved in v2
@@ -14,6 +15,17 @@ Python 3.12
     import pandas as pd
     import matplotlib.plyot as plt
     import ast
+# v_2
+# Notes
+
+1. Improved on v_1 design to the point it does not use the same hard coded framework and is adaptable to any qtm (from qualysis) tsv file
+2. Need : 
+import sqlite3
+import pandas as pd
+import matplotlib.pyplot as plt
+import json
+import os
+
 
 # liability and legal stuff
 Just use it and give thoughts
